@@ -81,7 +81,7 @@ while True:
     if number_of_steps_cw == 400:
         led_g.value(0)
         utime.sleep(0.2)
-        servo.duty_u16(1800)
+        servo.duty_u16(2000)
         utime.sleep(0.4)
 
     utime.sleep(0.01)
